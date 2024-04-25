@@ -1,0 +1,99 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(90deg, #014871, #d7ede2);
+}
+
+.container{
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 700px;
+
+}
+
+h2{
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+form {
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px 10 50px 10;
+    margin-bottom: 20px;    
+}
+
+label {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+input {
+  background:transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+
+button {
+  background-color: transparent;
+  /* text-align: center; */
+  margin-left: 90px;
+  border: none;
+  font-size: 14px;
+}
+
+table {
+    /* border-collapse: collapse; */
+    /* width: 70%; */
+    /* margin-left: 14%; */
+    margin-left:200px;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #11235A;
+    font-size: 14px;
+    color: white;
+}
+
+tr {
+  background-image: linear-gradient(to right, rgb(13, 52, 196), #0fefff);
+  color: rgb(255, 255, 255);
+}
+
+a.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.btn-danger:hover {
+    color:transparent;
+    /* background-color: #c82333; */
+    /* border-color: #bd2130; */
+}
